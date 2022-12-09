@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(background.webp);
+  background-size: 100%;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(30, 122, 29);
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links a {
+  font-size: 50px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo {
+  padding-left: 200px;
+  font-size: 70px;
+}
+
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+.menu li:hover {
+  background-color: rgb(42, 170, 40);
+  border-radius: 5px;
+  transition: 0.3s ease;
+  color: #fff;
+}
+.menu li {
+  padding: 5px 14px;
+}
+.banner {
+  font-family: 'Mountains of Christmas';
+  font-size: 22px;
+  background-color: #fff;
+  color: rgb(30, 122, 29);
+  font-size: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 200px;
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: 0px 10px 20px rgb(0, 0, 0);
+}
+footer{
+    margin-top: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+hr{
+  opacity: 100%;
+  background-color: #eee;
+  border: 0 none;
+  color: #eee;
+  height: 10px;
+}
+.imgDone{
+  margin-left: 200px;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgb(0, 0, 0);
+}
+#imp{
+  font-size: 70px;
+}
+span{
+  padding-left: 50px;
+}
+.download{
+  margin-left: 200px;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  border-radius: 20px;
+  padding: 20px;
+  background-color: rgb(30, 122, 29);
+  text-decoration: none;
+  box-shadow: 0px 10px 20px rgb(0, 0, 0);
+}
+.download:hover{
+  color: rgb(54, 176, 52);
+  text-decoration: none;
+}
+h1{
+  box-shadow: 0px 10px 20px rgb(0, 0, 0);
+  border-radius: 20px;
+  padding: 40px;
+  background-color: white;
+  font-size: 120px!important;
+}
